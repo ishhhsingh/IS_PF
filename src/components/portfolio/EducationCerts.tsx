@@ -52,15 +52,18 @@ export function Certifications() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08, duration: 0.5 }}
-              className="group surface-card surface-card-hover p-6 flex gap-5"
+              className="group surface-card surface-card-hover p-6 flex gap-5 relative"
             >
+              {c.link && (
+                <a href={c.link} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10" aria-label={`View certificate for ${c.title}`} />
+              )}
               <div className="grid h-14 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-primary to-accent text-primary-foreground shadow-lift">
                 <Award className="h-6 w-6" />
               </div>
               <div className="min-w-0 flex-1">
                 <div className="flex items-start justify-between gap-4">
                   <h3 className="font-display font-semibold text-lg leading-snug">{c.title}</h3>
-                  <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <ExternalLink className={`h-4 w-4 transition-opacity ${c.link ? 'text-primary opacity-100' : 'text-muted-foreground opacity-0 group-hover:opacity-100'}`} />
                 </div>
                 <div className="mt-1 text-sm text-primary">{c.org}</div>
                 <div className="mt-1 font-mono text-xs text-muted-foreground">{c.date}</div>
