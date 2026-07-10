@@ -156,6 +156,7 @@ export const experience = [
     role: "Frontend Development Intern",
     company: "CADWORKS INDIA Pvt Ltd",
     duration: "Dec 2024 — Mar 2025",
+    link: "https://drive.google.com/file/d/1conZ5jaJfQPxlGFGY9UPJ-VgaC7FJuOI/view?usp=sharing",
     bullets: [
       "Completed a 3-month frontend internship with the IT department, shipping features on live projects.",
       "Collaborated with senior engineers on assigned modules, code reviews, and QA.",
@@ -191,6 +192,7 @@ export const certifications = [
     title: "Data Analytics Job Simulation",
     org: "Deloitte Australia · Forage",
     date: "June 2026",
+    link: "https://drive.google.com/file/d/11PVLrm5Ks8VLvzvfhgxEFfKgWOfsR8HF/view?usp=sharing",
     description:
       "Practical tasks in data analysis and forensic technology, delivered against real Deloitte briefs.",
   },
@@ -198,6 +200,7 @@ export const certifications = [
     title: "Frontend Development Internship",
     org: "CADWORKS INDIA Pvt Ltd",
     date: "March 2025",
+    link: "https://drive.google.com/file/d/1conZ5jaJfQPxlGFGY9UPJ-VgaC7FJuOI/view?usp=sharing",
     description:
       "Three-month industry certificate recognizing delivered frontend work and professional conduct.",
   },
