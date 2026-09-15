@@ -1,10 +1,10 @@
 export const profile = {
   name: "Ishika Singh",
-  roles: ["Data Analyst", "Full Stack Developer", "Software Engineer"],
+  roles: ["Data Analyst", "Full Stack Developer", "Software Engineer", "Data Engineer"],
   headline: "Building Data-Driven Software That Solves Real Business Problems.",
   intro:
-    "I'm an entry-level engineer who ships end-to-end: I model data in SQL, transform it in Python, visualize it in Power BI, and build full-stack applications in React and Spring Boot. I care about clean code, measurable outcomes, and shipping software recruiters and users can trust.",
-  email: "ishikasingh09401@gmail.com",
+    "I'm an entry-level engineer who ships projects end-to-end: I model data in SQL, transform it in Python, visualize it in Power BI, and build full-stack applications in React and Spring Boot. I care about clean code, measurable outcomes, and shipping software recruiters and users can trust.",
+  email: "ishika09401@gmail.com",
   phone: "+91 6299705497",
   location: "Ranchi, Jharkhand, India",
   github: "https://github.com/",
@@ -14,10 +14,10 @@ export const profile = {
 };
 
 export const dashboardStats = [
-  { label: "Projects Shipped", value: 6, suffix: "+" },
+  { label: "Projects Shipped", value: 2, suffix: "+" },
   { label: "Internship", value: 5, suffix: " mo" },
   { label: "Technologies", value: 18, suffix: "+" },
-  { label: "Certifications", value: 3, suffix: "" },
+  { label: "Certifications", value: 4, suffix: "" },
   { label: "Availability", value: "Now", isText: true },
   { label: "Graduation Year", value: 2026 },
 ];
@@ -182,7 +182,7 @@ export const education = [
   {
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "Sikkim Manipal Institute of Technology",
-    duration: "Expected 2026",
+    duration: "Graduated in 2026",
     detail: "Coursework: DSA, DBMS, Web Technologies, Software Engineering, Python, Data Science, Statistics.",
   },
   {
@@ -207,14 +207,6 @@ export const certifications = [
     link: "https://drive.google.com/file/d/1fzRDNGKgCeFVeh3HeWGSbCnlryJe2MSs/view?usp=drivesdk",
     description:
       "Certificate recognizing full-stack website development from scratch, independent backend API implementation, and team feature delivery.",
-  },
-  {
-    title: "Data Analytics Job Simulation",
-    org: "Deloitte Australia · Forage",
-    date: "June 2026",
-    link: "https://drive.google.com/file/d/11PVLrm5Ks8VLvzvfhgxEFfKgWOfsR8HF/view?usp=sharing",
-    description:
-      "Practical tasks in data analysis and forensic technology, delivered against real Deloitte briefs.",
   },
   {
     title: "Frontend Development Internship",
