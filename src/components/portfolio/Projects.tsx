@@ -133,7 +133,7 @@ export function Projects() {
       <div className="container-page">
         <SectionHeader
           eyebrow="Selected work"
-          title="Case studies, not screenshots."
+          title="Featured works"
           description="Each project below started with a business question and ended with a shipped artifact — a dashboard, a portal, or an insight report."
         />
 
