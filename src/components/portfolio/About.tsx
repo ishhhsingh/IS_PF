@@ -6,7 +6,7 @@ const values = [
   { icon: Target, title: "Outcome first", body: "I optimize for shipped value, not lines of code. Every project answers a clear business question." },
   { icon: Heart, title: "Trust by default", body: "Clean data, readable code, honest documentation. I want teammates to inherit my work happily." },
   { icon: Compass, title: "Curiosity as compass", body: "I go deep into one problem at a time — Power BI DAX one week, Spring Boot the next." },
-  { icon: GraduationCap, title: "Always learning", body: "Pursued BCA, Forage/Deloitte simulation by night, GitHub commits on weekends." },
+  { icon: GraduationCap, title: "Always learning", body: "Graduated BCA, Forage/Deloitte simulation by night, GitHub commits on weekends." },
 ];
 
 export function About() {
@@ -16,7 +16,7 @@ export function About() {
         <SectionHeader
           eyebrow="About"
           title="A fresher who thinks like a shipping engineer."
-          description="I pursued BCA at Sikkim Manipal Institute of Technology while shipping real projects across data analytics and full-stack development. My goal for my first role: join a team where I can turn business questions into production software — fast."
+          description="I have been graduated BCA at Sikkim Manipal Institute of Technology while shipping real projects across data analytics and full-stack development. My goal for my first role: join a team where I can turn business questions into production software — fast."
         />
 
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-14 items-start">
