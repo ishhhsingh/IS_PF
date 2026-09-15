@@ -156,7 +156,7 @@ export function Hero() {
                   <div className="text-sm text-muted-foreground mt-1">Data · Full-Stack · Engineering</div>
                 </div>
                 <div className="grid grid-cols-3 gap-2 w-full pt-2">
-                  {["6+ Projects", "3 mo Intern", "2 Certs"].map((s) => (
+                  {["6+ Projects", "5 mo Intern", "3 Certs"].map((s) => (
                     <div key={s} className="text-center text-xs font-mono text-muted-foreground border border-border rounded-lg py-2 bg-surface-hover">
                       {s}
                     </div>

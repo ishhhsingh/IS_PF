@@ -15,9 +15,9 @@ export const profile = {
 
 export const dashboardStats = [
   { label: "Projects Shipped", value: 6, suffix: "+" },
-  { label: "Internship", value: 3, suffix: " mo" },
+  { label: "Internship", value: 5, suffix: " mo" },
   { label: "Technologies", value: 18, suffix: "+" },
-  { label: "Certifications", value: 2, suffix: "" },
+  { label: "Certifications", value: 3, suffix: "" },
   { label: "Availability", value: "Now", isText: true },
   { label: "Graduation Year", value: 2026 },
 ];
@@ -153,6 +153,18 @@ export const projects = [
 
 export const experience = [
   {
+    role: "Full Stack Developer Intern",
+    company: "MEUN PRIVATE LIMITED",
+    duration: "Jun 2026 — Aug 2026",
+    link: "https://drive.google.com/file/d/1fzRDNGKgCeFVeh3HeWGSbCnlryJe2MSs/view?usp=drivesdk",
+    bullets: [
+      "Worked as part of the development team responsible for building the complete MEUN website from scratch.",
+      "Independently handled the backend development and implementation of core server-side functionality and APIs.",
+      "Collaborated with the team on frontend and full-stack integration, debugging, testing, and feature development.",
+    ],
+    tags: ["React", "Node.js", "Full Stack", "REST APIs", "Backend Development"],
+  },
+  {
     role: "Frontend Development Intern",
     company: "CADWORKS INDIA Pvt Ltd",
     duration: "Dec 2024 — Mar 2025",
@@ -188,6 +200,14 @@ export const education = [
 ];
 
 export const certifications = [
+  {
+    title: "Full Stack Developer Internship",
+    org: "MEUN PRIVATE LIMITED",
+    date: "August 2026",
+    link: "https://drive.google.com/file/d/1fzRDNGKgCeFVeh3HeWGSbCnlryJe2MSs/view?usp=drivesdk",
+    description:
+      "Certificate recognizing full-stack website development from scratch, independent backend API implementation, and team feature delivery.",
+  },
   {
     title: "Data Analytics Job Simulation",
     org: "Deloitte Australia · Forage",

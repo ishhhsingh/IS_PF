@@ -44,10 +44,10 @@ export function Certifications() {
           eyebrow="Certifications"
           title="Signals from the industry."
         />
-        <div className="grid md:grid-cols-2 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {certifications.map((c, i) => (
             <motion.div
-              key={c.title}
+              key={`${c.title}-${c.org}`}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, Download, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const sections = [
@@ -78,8 +78,13 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-2">
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://drive.google.com/file/d/1MPWqePdM8UXJq4GdSlEHxZqmyrbhbAd2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1uf7_oOrceDTvUWGjVxjEcTmwuZFBpHda/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Download className="mr-1.5 h-4 w-4" /> Resume
+            </a>
+          </Button>
+          <Button variant="ghost" size="sm" asChild>
+            <a href="https://drive.google.com/file/d/1fzRDNGKgCeFVeh3HeWGSbCnlryJe2MSs/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <Award className="mr-1.5 h-4 w-4" /> Certificate
             </a>
           </Button>
           <Button size="sm" onClick={() => go("contact")}>Hire Me</Button>
@@ -113,10 +118,15 @@ export function Navbar() {
                 {s.label}
               </button>
             ))}
-            <div className="mt-2 grid grid-cols-2 gap-2">
+            <div className="mt-2 grid grid-cols-3 gap-2">
               <Button variant="outline" size="sm" asChild>
-                <a href="https://drive.google.com/file/d/1MPWqePdM8UXJq4GdSlEHxZqmyrbhbAd2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1uf7_oOrceDTvUWGjVxjEcTmwuZFBpHda/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Resume
+                </a>
+              </Button>
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://drive.google.com/file/d/1fzRDNGKgCeFVeh3HeWGSbCnlryJe2MSs/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                  Certificate
                 </a>
               </Button>
               <Button size="sm" onClick={() => go("contact")}>Hire Me</Button>
